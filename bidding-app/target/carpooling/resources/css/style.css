@@ -1,0 +1,74 @@
+/* demo page styles */
+body {
+    background:#eee;
+    margin:0;
+   
+}
+
+.main {
+background:#fff url('../img/clouds-in-blue-sky.jpg') no-repeat;
+background-size: 100% 100%;
+
+}
+
+#map-canvas{height: 550px;}
+.example {
+    height:30%;
+    width:100%;
+   margin:0px;
+    border:1px #000 solid;
+    padding:15px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+
+/* main menu styles */
+#nav {
+    display:inline-block;
+    width:100%;
+    margin:0px auto;
+    padding:0;
+    background:#335599 url('../img/bg.png') repeat-x 0 -110px;
+
+    border-radius:10px; /*some css3*/
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    box-shadow:0 2px 2px rgba(0,0,0, .5);
+    -moz-box-shadow:0 2px 2px rgba(0,0,0, .5);
+    -webkit-box-shadow:0 2px 2px rgba(0,0,0, .5);
+}
+#nav li {
+    margin:10px;
+    float:left;
+    position:relative;
+    list-style:none;
+}
+
+
+
+
+
+#nav ul {
+    opacity:0;
+    visibility:hidden;
+    padding:0;
+    width:175px;
+    position:absolute;
+    background:#aabbcc url(../img/bg.png) repeat-x 0 0;
+    border:1px solid #7788aa;
+
+    border-radius:10px; /*some css3*/
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    box-shadow:0 2px 2px rgba(0,0,0, .5);
+    -moz-box-shadow:0 2px 2px rgba(0,0,0, .5);
+    -webkit-box-shadow:0 2px 2px rgba(0,0,0, .5);
+
+    -moz-transition:opacity .25s linear, visibility .1s linear .1s;
+    -webkit-transition:opacity .25s linear, visibility .1s linear .1s;
+    -o-transition:opacity .25s linear, visibility .1s linear .1s;
+    transition:opacity .25s linear, visibility .1s linear .1s;
+}
+
